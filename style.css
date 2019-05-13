@@ -1,0 +1,469 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.anotherbody {
+    font-family: SF Pro Display;
+    background-image: url(background/header.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin: 0;
+
+}
+
+.body {
+    font-family: SF Pro Display;
+    background-image: url(background/Untitled-2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+}
+.saljublur {
+    position: fixed;
+    width: 50%;
+    margin-left: -300px;
+    -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 64s linear infinite;
+}
+.salju {
+    position: fixed;
+    margin: auto;
+    -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 100s linear infinite;
+}
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+nav ul li {
+    display: inline-block;
+    padding: 16px 20px;
+    transition: 0.5s;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 15pt;
+    transition: 0.5s;
+}
+
+nav {
+    position: fixed;
+    margin-left: 270px;
+    margin-top: 30px;
+    text-align: center;
+    top: 0;
+    line-height: 20px;
+    width: 60%;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50px;
+}
+
+nav ul li a:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 16px 20px;
+    border-radius: 20px;
+}
+
+.logopanjang {
+    background-color: white;
+    padding: 20px 30px;
+    width: 30%;
+    float: left;
+    margin-top: 280px;
+    margin-left: 1%;
+    border-radius: 30px;
+    position: relative;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.8s;
+}
+
+.logopanjang:hover{
+    -moz-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+    margin-left: 130px;
+}
+
+.heading {
+    margin-top: 280px;
+    margin-right: 30px;
+    color: white;
+    float: right;
+    font-size: 32pt;
+    width: 50%;
+    text-align: right;
+    /*background-color: red;*/
+}
+
+.content {
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    width: 100%;
+    margin-left: -4pt;
+    padding: 5px;
+    bottom: 0;
+    text-align: right;;
+}
+
+.a {
+    margin-left: 30px;
+    margin-top: 50px;
+    width: 50%;
+    text-align: left;
+    font-size: 15pt;
+}
+
+.ikson {
+    float: left;
+    margin-left: 840px;
+    margin-top: -50px;
+}
+.audio {
+    margin-right: 30px;
+    margin-top: -70px;
+    margin-bottom: 50px;
+
+}
+
+.headeraboutme {
+    background-image: url(background/header.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.h1title {
+    font-size: 80pt;
+    text-align: center;
+    color: white;
+    width: 50%;
+    margin-left: 340px;
+    margin-top: 140px;
+    transition: 2s;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.8s;
+    /*background-color: red;*/
+}
+
+.h1title:hover {
+    -moz-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.3);
+}
+
+.photogeemde {
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 300px;
+    /*background-color: black;*/
+    transition: 1s;
+    width: 60%;
+}
+
+.photogeemde:hover{
+    text-align: center;
+    transform: scale(1.1);
+    transition: 0.7s;
+}
+
+.pabout1 {
+    font-size: 20pt;
+    text-align: center;
+    width: 90%;
+    margin-left: 65px;
+    word-spacing: 7px;
+    line-height: 40px;
+    padding-bottom: 60px;
+    
+}
+
+.pquote{
+    float: left;
+    font-size: 70pt;
+    margin: -5px 65px 0px;
+    transition: all 0.8s;
+    border-radius: 30px;
+}
+
+.pquote:hover{
+    background-image: linear-gradient(to bottom right, blue, red);
+    color: white;
+    padding: 0 10px;
+    border-radius: 30px;
+    transition: all 0.9s;
+}
+.pisiquote {
+    font-size: 20pt;
+    text-align: right;
+    width: 60%;
+    margin-left: 460px;
+    word-spacing: 7px;
+    transition: 0.6s;
+}
+
+.pisiquote:hover {
+    background-image: linear-gradient(to bottom right, blue, red);
+    color:transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    transition: 0.6s;
+    transform: scale(1.15);
+    margin-left: 400px;
+}
+.pedu{
+    float: left;
+    text-align: center;
+    font-size: 80pt;
+    line-height: 60pt;
+    margin: -30px 0px 0px 90px;
+    border-radius: 30px;
+    background-image: linear-gradient(to bottom right, blue, red);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    transition: 0.8s all;
+}
+
+.pedu:hover{
+    transform: scale(1.3);
+    transition: 0.8s all;
+    margin-left: 120px;
+
+}
+
+.oledu a{
+    text-decoration: none;
+    color: black;
+}
+
+.oledu {
+    float: left;
+    font-size: 20pt;
+    margin-left: 30px;
+    margin-top: 47px;
+    width: 40%;
+}
+
+.h2skills {
+    text-align: center;
+    width: 60%;
+    margin-left: 300px;
+    margin-top: 100px;
+    font-size: 50pt;
+    background-image: linear-gradient(to bottom right, red, blue);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    transition: 0.6s;
+}
+
+.h2skills:hover{
+    transform: scale(1.3);
+    transition: 1s;
+}
+
+.h2lang{
+    margin-left: 80px;
+    margin-top: -40px;
+    font-size: 35pt;
+    transition: 0.6s;
+    width: 10%;
+    float: left;
+}               
+
+.h2lang:hover{
+    background-image: linear-gradient(to bottom right, blue, red);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    transform: scale(1.5);
+    margin-left: 100px;
+    transition: 1s;
+}
+
+.ul-lang {
+    float: left;
+    font-size: 22pt;
+    margin-top: -50px;;
+}
+
+.h2apps{
+    margin-left: 60px;
+    margin-top: -40px;
+    font-size: 35pt;
+    transition: 0.6s;
+    width: 10%;
+    float: left;
+}
+
+.h2apps:hover{
+    background-image: linear-gradient(to bottom right, blue, red);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    transform: scale(1.3);
+    margin-left: 80px;
+    transition: 1s;
+}
+
+.skillimage1 {
+    width: 10%;
+    margin-left: -20px;
+    margin-top: -45px;
+    padding-right: 30px;
+}
+
+.hobbyimagediv {
+    margin-left: 335px;
+}
+
+.hobbyimage{
+    padding:10px 30px;
+    transition: 0.6s;
+}
+
+.hobbyimage:hover{
+    transform: scale(1.2);
+    transition: 1s;
+}
+
+.footer {
+    width: 100%;
+    margin-bottom: -120px;
+    float: left;
+}
+
+.h2footer{
+    font-size: 32pt;
+    color:white;
+    margin: 0 auto;
+    width: 60%;
+    text-align: center;
+}
+
+.familyimage1 {
+    text-align: center;
+    padding-top: 70px;
+}
+
+.familyimage1 img{
+    transition: 0.8s;
+}
+
+.familyimage1 img:hover{
+    transform: scale(1.3);
+    transition: 0.5s;
+}
+
+.familyimage2 {
+    text-align: center;
+}
+
+.familyimage2 img{
+    transition: 0.8s;
+}
+
+.familyimage2 img:hover{
+    transform: scale(1.3);
+    transition: 0.5s;
+}
+
+.logopu {
+    transform: scale(1.3);
+    margin-left: 370px;
+    margin-top: 60px;
+    float: left;
+    /*background-color: red;*/
+}
+
+.judulpu {
+    margin-right: 240px;
+    margin-top: 130px;
+    font-size: 50pt;
+    float: right;
+    /*background-color: red;*/
+    width: 30%
+}
+
+.puexplain {
+    float: left;
+    margin-top: 80px;
+    width: 80%;
+    text-align: justify;
+    text-indent: 50px;
+    margin-left: 142px;
+    font-size: 20pt;
+    line-height: 29pt;
+}
+
+.h2visionmision {
+    float: left;
+    text-align: center;
+    width: 60%;
+    margin-left: 290px;
+    margin-top: 100px;
+    font-size: 50pt;
+    background-image: linear-gradient(to bottom right, red, blue);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    transition: 0.6s;
+}
+
+.h2visionmision:hover {
+    transform: scale(1.2);
+    transition: 1s;
+}
+
+.textvision {
+    float: left;
+    margin-left: 280px;
+    margin-top: -30px;
+    width: 60%;
+    text-align: center;
+    font-size: 20pt;
+}
+
+.textmission {
+    float: left;
+    margin: -30px 140px;;
+    width: 80%;
+    text-align: center;
+    font-size: 20pt;
+}
+
+.textlecture ul {
+    float: left;
+    margin: 0px 140px;;
+    width: 80%;
+    text-align: center;
+    font-size: 20pt;
+}
+
+.textlecture a{
+    text-decoration: none;
+}
+
+.textlecture li {
+    list-style: none;
+}
+
+.mapshometown {
+    width: 70%;
+    margin-top: 0px;
+    margin-left: 220px;
+}
+
+.texthometown {
+    margin: 40px 140px;;
+    width: 80%;
+    text-align: center;
+    font-size: 20pt;
+    line-height: 40px;
+}
